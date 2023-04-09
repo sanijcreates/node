@@ -16,6 +16,10 @@ console.log(readThird);
 //if the first argument is already there, node will overwrite whatever it is. 
 const third2 = writeFileSync('../pathTest/third.txt', "I am the third file 2");
 
+//if you want to append to the file instead, use the same format and add flag to it with string a set. 
+writeFileSync('../pathTest/third.txt', "I am the appended part", {flag: 'a'});
+
+
 const readThird2 = readFileSync('../pathTest/third.txt', 'utf8')
 console.log(readThird2);
 
