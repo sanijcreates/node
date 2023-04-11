@@ -1,0 +1,2 @@
+# this will ignore the node_modules file. as in it will not push into github
+/node_modules

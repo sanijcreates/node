@@ -1,0 +1,22 @@
+{
+  "name": "idk",
+  "version": "1.0.0",
+  "description": "learning node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanijcreates/node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanijcreates/node/issues"
+  },
+  "homepage": "https://github.com/sanijcreates/node#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
