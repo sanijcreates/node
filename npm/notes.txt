@@ -1,0 +1,19 @@
+If you add a scripts of your own in package.json, you can use it however you want. 
+
+
+  "scripts": {
+    "start": "node app.js"
+  },
+
+  if i run "npm start" it will run the app.js. 
+  Similarly you can customize it to run a specific file.  
+
+
+  ## Uninstalling a package?
+
+  running the command, npm uninstall <package name>
+
+ALTERNATIVE WAY,
+  removing node modules file, removing package-lock.json file, and remove the specific dependency you want to remove from the pacage.json 
+  and, run command npm install 
+

@@ -1,0 +1,16 @@
+to run nodemon add a dev scripts in the packaage.json file. 
+
+"dev" : "nodemon app.js"
+
+and when you run npm run dev in the terminal, it will run nodemon
+
+what is so interesting about node mon?
+
+while using just node, you would have to restart your server everytime you change something in the app. 
+but, when using nodemon, it automatically restarts your server and shows the changes. 
+
+you can customize the scripts any way you want. 
+
+you can even run nodemon in the start scripts, 
+
+"start" : "nodemon app.js"

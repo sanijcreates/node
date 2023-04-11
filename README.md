@@ -10,4 +10,13 @@ Learning node, date started: April 9 2023.
 - cli
 - fs(sync and async)
 
+## Day 2:
+
+- http 
+- package.json
+- gitignore
+
+## Day 3:
+
+
 
